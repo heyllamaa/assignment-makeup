@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Makeup Box</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+
+
+<link rel="stylesheet" href="index2.css">
+
+
+</head>
+<body>
+
+<!-- Links (sit on top) -->
+<div class="w3-top">
+  <div class="w3-row w3-padding w3-black">
+    <div class="w3-col s3">
+      <a href="index.html" class="w3-button w3-block w3-black">QUESTIONS</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#" onclick="self.close();"class="w3-button w3-block w3-black">EXIT</a>
+    </div>
+    <div class="w3-col s3">
+    </div>
+    <div class="w3-col s3">
+    </div>
+  </div>
+</div>
+
+<!-- Header with image -->
+<header class="bgimg w3-display-container w3-grayscale-min" id="home">
+  <div class="w3-display-middle w3-center">
+    
+  </div>
+
+</header>
+
+<!-- Add a background color and large text to the whole page -->
+<div class="w3-sand w3-grayscale w3-large">
+
+
+<div class="w3-container" id="about">
+  <div class="w3-content" style="max-width:700px">
+    <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">MAKEUP BOX</span></h5>
+    <p>This website is to help all the consumer to buying makeup products.</p>
+    <div class="w3-panel w3-leftbar w3-light-grey">
+      <p><i>"May your day be as flawless as your makeup"</i></p>
+    </div>
+    
+    <p>Things user can search: <br><br>
+      
+      covergirl - eyeshadow <br>
+      covergirl - eyeliner <br>
+      covergirl - blush <br>
+      maybelline - eyeliner <br>
+      maybelline - bronzer <br>
+      maybelline - foundation <br>
+      maybelline - mascara <br>
+      maybelline - blush <br>
+      <br>
+      <p>Please enter the brand and product:</p>
+    </p>
+
+    <input type="text" class="column" id="brands" placeholder="maybelline">
+    <input type="text" class="column" id="category" placeholder="mascara">
+
+      <button onclick="buttonClicked()" class="submit">submit</button>
+
+
+	    <br>
+      <br>
+    <div class="w3-panel w3-leftbar w3-light-grey">
+      <div id="box1">
+        <div id="display">BRAND: </div>
+        <div id="display1">CATEGORY: </div>
+        <div id="display2">PRODUCT NAME: </div>
+        <div id="display3">RATING: </div>
+        <div id="display4">PRICE: </div>
+        <div id="display5">DESCRIPTION: </div>
+  
+      </div>
+    </div>
+    <p>Please click refresh to start new product </p>
+    
+
+
+ 
+    </div>
+
+
+<script src="makeup.js"></script>
+
+
+</body>
+</html>
